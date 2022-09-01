@@ -1,0 +1,24 @@
+/* variables */
+/* sections */
+.header {
+  justify-content: space-around;
+  flex-flow: row wrap;
+  display: flex;
+  width: 100%;
+  background-color: #0064004d;
+  padding: 1rem 4rem; }
+  .header__h1 {
+    font-size: 4rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
+  .header__nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-flow: row wrap; }
+  .header__nav li {
+    margin: 1rem; }
+  .header__nav--li {
+    color: #E7344C; }
+
+* {
+  padding: 0;
+  margin: 0; }
