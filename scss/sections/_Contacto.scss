@@ -1,0 +1,52 @@
+
+
+
+.contacto-img {
+    height: 75vh;
+    margin: 0 80px;
+    text-align: center;
+    grid-area: contacto-img;
+    img {
+        width: 35vw;
+    }
+}
+
+
+.contacto-form {
+    padding-top: 19vh;
+    width: 50%;
+    margin: 0;
+
+    &__altura-form {
+        height: 15vw;
+    }
+
+    &__form {
+
+        font-family: lato;
+        background-color: black;
+        color: white;
+        border: 0;
+        border-bottom: solid white 1px;
+        font-size: 20px;
+        font-weight: 100;
+        width: 600px;
+        padding: 20px;
+        grid-area: form;
+    }
+
+    &__boton-enviar {
+        font-size: 20px;
+        background-color: black;
+        color: white;
+        border: solid white 1px;
+        padding: 10px 20px;
+        font-family: lato;
+        font-weight: 100;
+    }
+
+    &__comentario {
+        border: solid white 1px;
+    }
+
+}

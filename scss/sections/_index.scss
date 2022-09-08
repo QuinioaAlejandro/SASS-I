@@ -1,0 +1,72 @@
+
+.main-index {
+    background-image: url('../img/index-qionoto.jpg');
+    background-repeat: no-repeat;
+    height: 100vh;
+    font-family: aboreto;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    font-weight: 100;
+    font-size: 6rem;
+    h1 {
+        padding-top: 40vh;
+        font-size: 4rem;
+    }
+    &--sp {
+        background-image: url('../img/espacio.jpg') !important;
+        background-repeat: no-repeat;
+    }
+    &--fcion {
+        background-image: url('../img/formacion-qionoto.png') !important;
+        background-repeat: no-repeat;
+        background-size: 110%;
+    }
+}
+
+.main {
+    margin: 50px;
+    color: white;
+    font-family: lato;
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+    justify-content: space-evenly;
+    &__intro {
+        font-family: aboreto;
+        margin: 70px;
+        font-weight: 100;
+        font-size: 4rem;
+        line-height: 4rem;
+    }
+    &__cards {
+        width: 300px;
+        padding: 20px;
+        /* border: 1px solid white; */
+        border-radius: 15px;
+        background-color: rgba(0, 0, 0, 0.4);
+        p {
+            font-weight: 100;
+        }
+
+        img {
+            width: 250px;
+            transition: transform 0.2s;
+            &:hover {
+                transform: scale(1.2);
+                transition: .2;
+            }
+        }
+    }
+}
+
+.slider {
+    &__encabezado {
+        padding: 4rem 0 2rem 7rem;
+        font-family: josefin sans;
+        font-size: 2rem;
+        color: white;
+    }
+}
